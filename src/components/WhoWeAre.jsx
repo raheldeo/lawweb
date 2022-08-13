@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const WhoWeAre = () => {
   return (
-    <div className='flex flex-col md:flex-row gap-10 justify-center items-center w-full md:h-[75vh] bg-blue-200 p-5'>
+    <div className='flex flex-col md:flex-row gap-10 justify-center items-center w-full md:h-[75vh] bg-blue-200 py-10 px-5'>
       <div className='flex flex-col justify-center gap-2'>
         <h1 className='text-[50px] font-bold'>Who we are</h1>
         <p className='w-full md:w-[40rem] text-lg '>
@@ -25,26 +26,27 @@ const WhoWeAre = () => {
           We are a collaborative group, each of us driven by a passion to serve
           the nonprofit sector.
         </p>
-
-        <button
-          type='button'
-          className=' text-lg border w-40 border-gray-500 px-2 py-1 uppercase hover:rounded font-medium  hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:border'
-        >
-          Meet our team
-        </button>
+        <Link to='/our-staff'>
+          <button
+            type='button'
+            className=' text-lg border w-40 border-gray-500 px-2 py-1 uppercase hover:rounded font-medium  hover:bg-blue-600 hover:text-white hover:border-blue-600 hover:border'
+          >
+            Meet our team
+          </button>
+        </Link>
       </div>
 
       <div className='flex justify-start md:items-center gap-4'>
         <div>
           <img
-            src='/Michael.jpeg'
+            src='/df.jpeg'
             alt=''
             className='w-40 bg-blue-600 rounded-full'
           />
         </div>
         <div>
           <h3 className='font-bold text-blue-600 hover:text-gray-400'>
-            Michael Greenberg
+            Tania Ennuson
           </h3>
           <p className='w-48 text-lg '>
             "It's so gratifying to help an organization reach that point where
