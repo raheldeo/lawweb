@@ -46,7 +46,7 @@ const WhoWeAre = () => {
         </div>
         <div>
           <h3 className='font-bold text-blue-600 hover:text-gray-400'>
-            Tania Ennuson
+            Rachael Thompson
           </h3>
           <p className='w-48 text-lg '>
             "It's so gratifying to help an organization reach that point where

@@ -62,7 +62,7 @@ const OurStaff = () => {
 
           <div className='flex flex-col text-center w-[35rem] bg-yellow-200 shadow-lg py-4 rounded items-center gap-4'>
             <img
-              src='/df.jpeg'
+              src='/jj.jpeg'
               alt=''
               className='rounded shadow-lg h-[20rem]'
             />
