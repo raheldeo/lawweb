@@ -25,9 +25,9 @@ const OurStaff = () => {
               service possible.
             </p>
             <p>
-              The attorneys at Roach Law believe that it is also important to be
-              active members in the communities in which we practice law and
-              live.
+              The attorneys at Greenberg and Hastings believe that it is also
+              important to be active members in the communities in which we
+              practice law and live.
             </p>
           </div>
         </section>

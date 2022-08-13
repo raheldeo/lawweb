@@ -1,14 +1,26 @@
 import React from 'react';
-import { FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
     <div className='bg-gray-800 flex flex-col sm:flex-row justify-center gap-10 md:gap-40 py-10 text-gray-300'>
       <div className='flex flex-col items-center'>
-        <p className='text-lg font-medium'>Connect with us</p>
-        <div className='flex gap-5'>
-          <FaFacebook className='text-[35px] hover:text-blue-600 cursor-pointer' />
-          <FaTwitter className='text-[35px] hover:text-blue-600 cursor-pointer' />
+        <p className='text-lg uppercase font-medium'>Connect with us</p>
+        <div className='flex flex-col gap-5'>
+          <li className='text-sm hover:text-blue-600 cursor-pointer'>
+            BUSINESS INCORPORATION
+          </li>
+          <li className='text-sm hover:text-blue-600 cursor-pointer'>
+            CIVIL LITIGATION
+          </li>
+          <li className='text-sm hover:text-blue-600 cursor-pointer'>
+            FAMILY LAW
+          </li>
+          <li className='text-sm hover:text-blue-600 cursor-pointer'>
+            PERSONAL INJURY
+          </li>
+          <li className='text-sm hover:text-blue-600 cursor-pointer'>
+            SPORTS AND ENTERTAINMENT
+          </li>
         </div>
       </div>
 

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -7,9 +8,11 @@ const Banner = () => {
         Get insights & tools to help your nonprofit organization through
         COVID-19
       </p>
-      <p className='text-sm uppercase font-medium text-white cursor-pointer hover:text-gray-200'>
-        Visit our contact for any information.
-      </p>
+      <Link to='/contact'>
+        <p className='text-sm uppercase font-medium text-white cursor-pointer hover:text-gray-200'>
+          Visit our contact for any information.
+        </p>
+      </Link>
     </div>
   );
 };
