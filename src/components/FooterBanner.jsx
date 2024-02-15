@@ -1,6 +1,9 @@
 import React from 'react';
 
 const FooterBanner = () => {
+
+  const year = new Date().getFullYear()
+  
   return (
     <div className='w-full px-10 bg-blue-600 flex flex-col sm:flex-row py-10 justify-center gap-10 md:gap-52 text-white'>
       <div className='flex flex-col'>
@@ -18,7 +21,7 @@ const FooterBanner = () => {
           We believe legal counsel should strengthen communities
         </p>
 
-        <p>© 2022 Greenberg&Hastings Associates</p>
+        <p>© {year} Greenberg&Hastings Associates</p>
       </div>
     </div>
   );
