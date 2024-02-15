@@ -9,7 +9,6 @@ const FooterBanner = () => {
         </div>
         <div>
           <a href='mailto:green.hastings@aol.com'>green.hastings@aol.com</a>
-          <p>(971) 915-3033</p>
           <p>(233) 22 243 9899</p>
         </div>
       </div>
