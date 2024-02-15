@@ -34,17 +34,17 @@ const OurStaff = () => {
 
         <section className='flex flex-wrap justify-center gap-8  p-5'>
           <div className='flex flex-col text-center w-[35rem] bg-yellow-200 shadow-lg py-4 rounded items-center gap-4'>
-            <img src='/e.jpeg' alt='' className='rounded shadow-lg h-[20rem]' />
+            <img src='https://cdn.sanity.io/files/l4h1g3vt/production/4af33dd8625cf0f437e386b3d2e3e8831413b97a.jpeg' alt='' className='rounded shadow-lg h-[20rem]' />
             <div className='w-full md:w-[20rem]'>
-              <h3 className='text-lg font-medium'> Edwin Yawson</h3>
+              <h3 className='text-lg font-medium'>Gregory Amoateng</h3>
               <div>
                 <p>
-                  Edwin Yawson acts as International Transaction Advisor. He is
+                  Gregory Amoateng acts as International Transaction Advisor. He is
                   an experienced and innovative transactional lawyer, who
                   advises a broad mix of multinational corporates, private
                   equity funds and other investors on complex and high-value
                   acquisitions and disposals, joint ventures, and other global
-                  transactions. Edwin is English law qualified and, prior to
+                  transactions. Gregory is English law qualified and, prior to
                   joining Greenberg & Hastings Associates, he spent 8 years at
                   the international law firm Freshfields Broohm As a member of
                   the Global Transactions team, Alex advised on numerous
